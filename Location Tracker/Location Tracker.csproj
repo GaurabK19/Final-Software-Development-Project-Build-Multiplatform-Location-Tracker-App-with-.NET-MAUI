@@ -56,7 +56,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Maui.Controls.Maps" Version="6.0.553" />
+    <PackageReference Include="Microsoft.Maui.Controls.Maps" Version="10.0.11" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
   </ItemGroup>
 
@@ -64,5 +64,4 @@
     <Folder Include="Models\" />
     <Folder Include="Services\" />
   </ItemGroup>
-
 </Project>

@@ -1,6 +1,7 @@
 ﻿using Microsoft.Maui.Controls;          // Colors
-using Microsoft.Maui.Controls.Maps;     // Map, Circle, MapSpan (UI control)
+using Microsoft.Maui.Controls.Maps;     // Map, Circle, MapSpan
 using Microsoft.Maui.Devices.Sensors;   // Location, Distance
+using Microsoft.Maui.Maps;
 using System.Linq;
 
 namespace Location_Tracker.Services;
@@ -40,6 +41,7 @@ public class HeatMapService
         if (points.Any())
         {
             var last = points.Last();
+
             map.MoveToRegion(
                 MapSpan.FromCenterAndRadius(
                     new Location(last.Latitude, last.Longitude),
