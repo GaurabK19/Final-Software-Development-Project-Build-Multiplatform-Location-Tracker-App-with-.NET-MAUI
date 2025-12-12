@@ -8,4 +8,3 @@ namespace Location_Tracker;
 public class MainActivity : MauiAppCompatActivity
 {
 }
-

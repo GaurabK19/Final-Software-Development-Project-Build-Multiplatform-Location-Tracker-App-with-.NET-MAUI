@@ -1,10 +1,10 @@
-﻿using Foundation;
+﻿using Android.Runtime;
+using Foundation;
 
-namespace Location_Tracker;
+namespace Location_Service;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate
 {
-	protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+    protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
 }
-
