@@ -2,6 +2,7 @@
 using Microsoft.Maui.Controls.Hosting;
 using Microsoft.Maui.Hosting;
 using Microsoft.Maui.Maps;
+using Microsoft.Maui.Controls.Maps;
 
 namespace Location_Tracker;
 
